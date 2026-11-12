@@ -105,3 +105,7 @@ Most of the improvement comes from supersampling. Stripe addressing adds roughly
 - Screen content gets about one to two frames of latency (capture → filter → present). Content-protected video (DRM) shows up black in capture.
 - FreeRetina draws the mouse pointer itself, at its live position, and presents a new frame on every mouse movement (at most once per refresh). It doesn't wait for the next captured frame. Measured from mouse event to panel at 100 Hz: median 25 ms / p90 33 ms, down from 33.5 / 42.4 ms when the pointer came from the captured frames. A normal hardware cursor is still faster, because it bypasses compositing entirely.
 - The pointer image comes from `NSCursor.currentSystem`, at the system's base size. The enlarged pointer from the Accessibility setting is untested.
+
+## License
+
+[PolyForm Noncommercial 1.0.0](LICENSE.md): free for personal and other noncommercial use. **Commercial use requires a paid license.** See [COMMERCIAL.md](COMMERCIAL.md).
