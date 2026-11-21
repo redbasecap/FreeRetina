@@ -1,5 +1,7 @@
 # FreeRetina
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/redbasecap)
+
 **Retina-like text on the monitor you already own.**
 
 FreeRetina gives any external monitor a set of HiDPI resolutions that show up in System Settings › Displays. macOS renders the whole desktop at 2x, and FreeRetina maps every frame back onto the panel **one R, G and B stripe at a time**. A normal 1440p or ultrawide monitor gets crisp, Retina-style text, and it's tuned to your eyes by a 30-second blind test.
